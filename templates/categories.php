@@ -28,7 +28,7 @@
               
               //3- get the total of number of records in categories table
               $sql='SELECT COUNT(*) FROM categories';
-              $stmt=$dbc->query(sql); //execute the query
+              $stmt=$dbc->query($sql); //execute the query
               //
   //============================ QUERY IS OBJECT ORIENTED==========================================
               $cnt=$stmt->fetchColumn(); // get one column result
@@ -47,11 +47,16 @@
               
              // var_dump($category_list);
              // start the list
-             echo "<ul>";
+             echo "<ul class='list-group'>";
+             echo '<li class="list-group-item active">Select a Category</li>';
              
               // 7-loop the array and display in UL list
-              foreach ($category_list as $row);
-                echo "<li>".$row['id']." - " . $row['category']."</li>";
+              foreach ($category_list as $row){
+                echo "<li class='list-group-item'>
+                        <a href='articlesbycategory.php?id={$row['id']}'>{$row['category']}</a>
+                        </li>";
+                        
+              }
             //end list
               echo "</ul>";
 ?>
