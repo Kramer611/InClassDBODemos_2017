@@ -1,5 +1,5 @@
 
-<!-- PDO      articles template  -->
+<!----------------- PDO      articles template  --------------------------->
 
 <div class="container">
     <h1 class="mt-4 mb-3">Articles</h1>
@@ -20,7 +20,7 @@
         
          //3- get the total of number of records in categories table
               $sql='SELECT COUNT(*) FROM pages';
-              $stmt=$dbc->query(sql); //execute the query
+              $stmt=$dbc->query($sql); //execute the query
              
               
               //get first colum from first row in resultset

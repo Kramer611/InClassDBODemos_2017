@@ -1,5 +1,7 @@
-      <ul class="navbar-nav ml-auto">
-<!--          <li class="nav-item active">
+    <!--------------------------------PDO  NAV_MENU IN INCLUDES====================== -->
+<!-- 
+<ul class="navbar-nav ml-auto">
+         <li class="nav-item active">
               <a class="nav-link" href="index.php">Home
                 <span class="sr-only">(current)</span>
               </a>
@@ -12,11 +14,11 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
-            </li>-->
+            </li>
 
           </ul> -->
 
-<!--------------------------------PDO  NAV_MENU TEMPLATES====================
+
 
 <ul class="navbar-nav ml-auto">
 <?php

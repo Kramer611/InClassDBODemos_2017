@@ -1,3 +1,6 @@
+<!-- ============ PDO HEADER IN THE INCLUDES  ========================= -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
